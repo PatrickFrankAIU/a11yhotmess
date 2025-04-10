@@ -1,0 +1,47 @@
+body {
+    background-color: #fff;
+    color: #aaa;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    background-color: #eee;
+    padding: 10px;
+}
+
+.nav div {
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.main-content {
+    margin: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #bbb;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+a {
+    color: #ccc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+*:focus {
+    outline: none;
+}
